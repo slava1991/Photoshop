@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        @font-face {
+            font-family: "G";
+            font-weight: 700;
+            src: url("font/bold.woff") format("woff");
+        }
+
+        @font-face {
+            font-family: "G";
+            font-weight: 300;
+            src: url("font/book.woff") format("woff");
+        }
+
+        @font-face {
+            font-family: "G";
+            font-weight: 500;
+            src: url("font/medium.woff") format("woff");
+        }
+
+        html {
+            font-family: "G";
+        }
+
+        .content {
+            min-height: 100vh;
+            background-image: url("img/Livello-1.png");
+            background-size: cover;
+
+        }
+
+        .header-nav-list {
+            text-align: center;
+        }
+
+        .header-nav-list-item {
+            display: inline-block;
+            margin: 32px;
+        }
+
+
+
+        .header-nav-link-item {
+            text-decoration: none;
+            color: #fff;
+        }
+
+        .get-started {
+            padding-top: 255px;           
+           text-align: center;
+        }
+
+        .get-started>span {
+            font-size: 18px;
+            text-transform: uppercase;
+            color: #fff;
+        }
+        .get-started>p {
+            color: #fff;
+            font-size:14px;
+            letter-spacing: 0.15em; 
+        }
+
+        .started {
+            display: inline-block;
+            color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 10px;
+            background-color: #16a085;
+            padding: 20px 30px;
+            margin-top: 30px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="content">
+        <div class="header-div">
+            <nav class="header-nav">
+                <ul class="header-nav-list">
+                    <li class="header-nav-list-item">
+                        <a class="header-nav-link-item" href="#">Home</a>
+                    </li>
+                    <li class="header-nav-list-item">
+                        <a class="header-nav-link-item" href="#">Photoapp</a>
+                    </li>
+                    <li class="header-nav-list-item">
+                        <img src="img/Livello-21.png" alt="photic">
+                    </li>
+                    <li class="header-nav-list-item">
+                        <a class="header-nav-link-item" href="#">Design</a>
+                    </li>
+                    <li class="header-nav-list-item">
+                        <a class="header-nav-link-item" href="#">Download</a>
+                    </li>
+                </ul>
+            </nav>
+
+        </div>
+        <div class="get-started">
+            <span>You life, a foto </span>
+            <p>print you life in a simple photo</p>
+            <a class="started" href="#">Get started</a>
+        </div>
+    </div>
+   
+</body>
+
+</html>
