@@ -1,0 +1,274 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "G";
+    font-weight: 700;
+    src: url("../font/bold.woff") format("woff");
+}
+
+@font-face {
+    font-family: "G";
+    font-weight: 300;
+    src: url("../font/book.woff") format("woff");
+}
+
+@font-face {
+    font-family: "G";
+    font-weight: 500;
+    src: url("../font/medium.woff") format("woff");
+}
+
+html {
+    font-family: "G";
+    
+}
+
+.content {
+    height: 790px;            
+    background-image: url("../img/Livello-1.png");
+    width: 100%;
+    background-size: cover
+
+}
+
+.header-nav-list {
+    text-align: center;
+}
+
+.header-nav-list-item {
+    display: inline-block;
+    margin: 32px;
+}
+
+.header-nav-link-item {
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+.fa-twitter ,
+.fa-flickr,
+.fa-dribbble
+{
+    color: #fff;
+}
+
+.heading-down-nav {
+    padding-top: 316px;
+    padding-left: 643px;
+    font-size: 24px;
+}
+.heading-down-list-item {
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.get-started {
+    padding-top: 165px;
+    text-align: center;
+}
+
+.get-started>span {
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.get-started>p {
+    color: #fff;
+    font-size: 14px;
+    letter-spacing: 0.15em;
+}
+
+.started {
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 10px;
+    background-color: #16a085;
+    padding: 20px 30px;
+    margin-top: 30px;
+    border-radius: 5px;
+}
+
+.iphone-top {
+    background-color: rgb(245, 246 , 247);
+}
+
+.iphone-decript {
+    display: block;
+    float: left;
+    padding: 0 0 90px 130px;
+}
+
+.iphone-title,
+.iphone-design-title {
+    text-transform: uppercase;
+    color: #16a085;
+    margin-bottom: 30px;
+    margin-top: 100px;
+    letter-spacing: 0.15em;
+}
+
+.started-two,
+.started-three {
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 10px;
+    background-color: #16a085;
+    padding: 20px 40px;
+    margin-top: 30px;
+    letter-spacing: 0.15em;
+}
+
+.started-two {
+    border-radius: 5px;
+}
+
+.hand {
+    display: block;
+   padding-top: 90px;
+   width: 45%;
+}
+
+.iphone-down {
+    background-color:rgb(255, 255 , 255);
+}
+
+.iphone-design {
+    display: block;
+    float: right;
+    padding-right: 50px;
+}
+
+.green-phone {
+    margin-top: 100px;
+    padding-left: 130px;
+}
+
+.our-community {
+    background-color: rgb(245, 246 , 247);
+    width: 100%;
+    position: relative;
+ }
+
+ .first-box {
+    height: 240px;
+    margin-bottom: 50px;
+   }
+
+ .first-box,
+ .second-box,
+ .third-box {
+     text-align: center;
+     display: inline-block;
+     width: 30%;
+     padding: 80px;
+ }
+
+ .chihorda {
+     letter-spacing: 0.15em;
+     font-size: 18px;
+     margin-top: 30px;  
+ }
+
+ .first-box > p {
+     padding: 25px 35px;
+     font-size: 11px;
+     letter-spacing: 0.1em;
+ }
+ 
+ .livel{
+    display: block;
+    width: 100%;
+    margin-left: 50px;
+}
+
+.subscribe {
+background-color: #f5f6f7;
+}
+
+.downald {
+    display: block;
+}
+
+ .dow {
+    padding-top: 100px;
+    padding-left: 45px;
+    padding-bottom: 17px;
+    text-align: center;
+    font-size: 26px;
+    text-transform: uppercase;
+    display: block;
+    letter-spacing: 0.15em;
+    color: #373737;
+    
+ }
+
+ .downald > p {
+     color: #373737;
+     padding: 0 202px;
+     letter-spacing: 0.15em;
+     text-transform: uppercase;
+     font-size: 13px;
+     text-align: center;
+ }
+
+ .spn {
+display: inline-block;
+padding: 20px 70px 20px 25px;
+margin-top: 44px;
+margin-left: 400px;
+margin-bottom: 100px;
+background-color: #1abc9c;
+border-radius: 5px;
+color: #fff;
+text-transform: uppercase;
+letter-spacing: 0.15em;
+}
+.spnn {
+    display: inline-block;
+    padding: 20px 70px 20px 25px;
+    margin-top: 44px;
+    /* margin-left: 400px; */
+    margin-bottom: 100px;
+    background-color: #1abc9c;
+    border-radius: 5px;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+}
+  .footer {
+      margin: 43px 0 43px 100px;    
+      letter-spacing: 0.15em;
+      font-size: 13px;
+  }
+
+ .footer-nav-list-item {
+     display: inline-block;
+     text-transform: uppercase;
+     color: #373737;
+     font-size: 12px;
+ }
+
+ .footer-nav-link {
+    text-decoration: none;
+    color: #373737;
+ }
+ 
+ .stick {
+     display: inline-block;
+color: #16a085;
+ }
+
+ .fotik-third {
+     display: inline-block;
+    margin-left: 710px;
+ }

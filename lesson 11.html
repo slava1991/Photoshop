@@ -7,147 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Document</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        @font-face {
-            font-family: "G";
-            font-weight: 700;
-            src: url("font/bold.woff") format("woff");
-        }
-
-        @font-face {
-            font-family: "G";
-            font-weight: 300;
-            src: url("font/book.woff") format("woff");
-        }
-
-        @font-face {
-            font-family: "G";
-            font-weight: 500;
-            src: url("font/medium.woff") format("woff");
-        }
-
-        html {
-            font-family: "G";
-        }
-
-        .content {
-            height: 790px;            
-            background-image: url("img/Livello-1.png");
-            width: 100%;
-            background-size: cover
-
-        }
-
-        .header-nav-list {
-            text-align: center;
-        }
-
-        .header-nav-list-item {
-            display: inline-block;
-            margin: 32px;
-        }
-
-        .header-nav-link-item {
-            text-decoration: none;
-            color: #fff;
-        }
-
-        .get-started {
-            padding-top: 165px;
-            text-align: center;
-        }
-
-        .get-started>span {
-            font-size: 18px;
-            text-transform: uppercase;
-            color: #fff;
-        }
-
-        .get-started>p {
-            color: #fff;
-            font-size: 14px;
-            letter-spacing: 0.15em;
-        }
-
-        .started {
-            display: inline-block;
-            color: #fff;
-            text-decoration: none;
-            text-transform: uppercase;
-            font-size: 10px;
-            background-color: #16a085;
-            padding: 20px 30px;
-            margin-top: 30px;
-            border-radius: 5px;
-        }
-        .iphone-top {
-            background-color: rgb(245, 246 , 247);
-        }
-        .iphone-decript {
-            display: block;
-            float: left;
-            padding: 0 0 90px 130px;
-        }
-        .iphone-title,
-        .iphone-design-title {
-            text-transform: uppercase;
-            color: #16a085;
-            margin-bottom: 30px;
-            margin-top: 100px;
-        }
-        .started-two,
-        .started-three {
-            display: inline-block;
-            color: #fff;
-            text-decoration: none;
-            text-transform: uppercase;
-            font-size: 10px;
-            background-color: #16a085;
-            padding: 20px 40px;
-            margin-top: 30px;
-            border-radius: 5px;
-        }
-        .hand {
-            display: block;
-           padding-top: 90px;
-           padding-right: 50px;
-        }
-        .iphone-down {
-            background-color:rgb(255, 255 , 255);
-        }
-        .iphone-design {
-            display: block;
-            float: right;
-            padding-right: 50px;
-        }
-        .green-phone {
-            margin-top: 100px;
-            padding-left: 130px;
-        }
-        .our-community {
-            background-color: rgb(245, 246 , 247);
-            width: 100%;
-         }
-         .first-box,
-         .second-box,
-         .third-box {
-             display: inline-block;
-         }
-         /* .subscribe {
-            min-height: 100vh;
-            background-image: url("img/Fifthy1.png");
-            background-size: cover; */
-         }
-         .dow {
-             text-align: right;
-         }
-    </style>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
@@ -156,8 +16,8 @@
             <nav class="header-nav">
                 <ul class="header-nav-list">
                     <li class="header-nav-list-item">
-                         <div class="heading-down">
-                        <a class="header-nav-link-item" href="#">Home</a>
+                        <div class="heading-down">
+                            <a class="header-nav-link-item" href="#">Home</a>
                     </li>
                     <li class="header-nav-list-item">
                         <a class="header-nav-link-item" href="#">Photoapp</a>
@@ -169,27 +29,27 @@
                         <a class="header-nav-link-item" href="#">Design</a>
                     </li>
                     <li class="header-nav-list-item">
-                        <a class="header-nav-link-item" href="#">Download</a>
+                        <a class="header-nav-link-item" href="#">Downald</a>
                     </li>
                 </ul>
             </nav>
 
-        </div>
-        <div class="get-started">
-            <span>You life, a foto </span>
-            <p>print you life in a simple photo</p>
-            <a class="started" href="#">Get started</a>
-        </div>
+            </div>
+            <div class="get-started">
+                <span>You life, a foto </span>
+                <p>print you life in a simple photo</p>
+                <a class="started" href="#">Get started</a>
+            </div>
             <nav class="heading-down-nav">
                 <ul class="heading-down-list">
                     <li class="heading-down-list-item">
-                        <a href="#"></a>
+                        <a class="header-down-nav-link" href="#"><i class="fa fa-twitter"></i></a>
                     </li>
                     <li class="heading-down-list-item">
-                        <a href="#"></a>
+                        <a class="header-down-nav-link" href="#"><i class="fa fa-flickr"></i></a>
                     </li>
                     <li class="heading-down-list-item">
-                        <a href="#"></a>
+                        <a class="header-down-nav-link" href="#"><i class="fa fa-dribbble"></i></a>
                     </li>
                 </ul>
             </nav>
@@ -197,60 +57,77 @@
     </div>
     <div class="iphone">
         <div class="iphone-top">
-    <div class="iphone-decript">
-        <h3 class="iphone-title">Rappresent your life
-             with a simple photo</h3>
-   <p><pre>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+            <div class="iphone-decript">
+                <h3 class="iphone-title">Rappresent your life with a simple photo</h3>
+                <p>
+                    <pre>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
 sed do eiusmod tempor incididunt ut labore et dolore
 magna aliqua. Ut <strong> enim ad minim</strong> veniam, quis
 nostrud exercitation ullamco laboris nisi
-ut aliquip ex ea commodo consequat.</pre></p>
-        <a class="started-two" href="#">Get started</a>
-        </div>
-        <img class="hand" src="img/iPhone1.png" alt="hand">
+ut aliquip ex ea commodo consequat.</pre>
+                </p>
+                <a class="started-two" href="#">Get started</a>
+            </div>
+            <img class="hand" src="img/iPhone1.png" alt="hand">
         </div>
         <div class="iphone-down">
             <div class="iphone-design">
                 <h3 class="iphone-design-title">Design</h3>
-        <p><pre>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                <p>
+                    <pre>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
 sed do eiusmod tempor incididunt ut labore et dolore
 magna aliqua. Ut <strong> enim ad minim</strong> veniam, quis
 nostrud exercitation ullamco laboris nisi
-ut aliquip ex ea commodo consequat.</pre></p>
-<a class="started-three" href="#">Get started</a>
-</div>
-<img class="green-phone" src="img/Flat-IPhone-5C.png" alt="phone">
+ut aliquip ex ea commodo consequat.</pre>
+                </p>
+                <a class="started-three" href="#">Learn more</a>
             </div>
+            <img class="green-phone" src="img/Flat-IPhone-5C.png" alt="phone">
         </div>
-        <div class="our-community">
-            <div class="first-box">
-                <img class="second-photic" src="img/Livello-4.png" alt="photic">
-                <h3 class="chihorda">our community</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            </div>
-            <div class="second-box">
-                <img class="bus" src="img/Livello-5.png" alt="busik">
-            </div>
-            <div class="third-box">
-                <img class="autumn" src="img/Livello-6.png" alt="leters">
-            </div>
+    </div>
+    <div class="our-community">
+        <div class="first-box">
+            <img class="second-photic" src="img/Livello-4.png" alt="photic">
+            <h3 class="chihorda">our community</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
         </div>
-        <img src="img/Fifthy1.png" alt="cucu"> 
-        <div class="subscribe">
-            <div class="downald"><h4 class="dow">Downald it</h4><p>orem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p></div>
-            <span class="spn">Apple store</span>
-            <span class="spain">Play store</span>
+        <div class="second-box">
+            <img class="bus" src="img/Livello-5.png" alt="busik">
         </div>
-        <div class="footer"><nav>
+        <div class="third-box">
+            <img class="autumn" src="img/Livello-6.png" alt="leters">
+        </div>
+    </div>
+    <img class="livel" src="img/Fifthy1.png" alt="cucu">
+    <div class="subscribe">
+        <div class="downald">
+            <h4 class="dow">Downald it</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat.</p>
+        </div>
+        <span class="spn">Apple store</span>
+        <span class="spnn">Play store</span>
+    </div>
+    <div class="footer">
+        <nav>
             <ul class="footer-nav-list">
-                <li class="footer-nav-list-item"><a  class="footer-nav-link" href="#">Credits</a></li>
-                <li class="footer-nav-list-item"><a class="footer-nav-link" href="#">Privacy</a></li>
-                <li class="footer-nav-list-item"><a class="footer-nav-link" href="#">Our teams</a></li>
+                <li class="footer-nav-list-item">
+                    <a class="footer-nav-link" href="#">Credits</a>
+                </li>
+                <div class="stick">|</div>
+                <li class="footer-nav-list-item">
+                    <a class="footer-nav-link" href="#">Privacy</a>
+                </li>
+                <div class="stick">|</div>
+                <li class="footer-nav-list-item">
+                    <a class="footer-nav-link" href="#">Our teams</a>
+                </li>
             </ul>
             <span class="copirate">Copyright by phototime - all right reserved</span>
-            <img class="fotik-third" src="img/Livello-21.png" alt="po">
+            <img class="fotik-third" src="img/Livello-4.png" alt="po">
         </nav>
-        </div>
+    </div>
 </body>
 
 </html>
